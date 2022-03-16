@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bg-color-head: #006CFA;
+  --bg-color-sec: #117E88;
+  --bg-color-alter: #7A037C;
+  --color-main: #F1F1F3;
+  --bg-color-main: #000;
+
+}
+
+.container-fluid{
+  background-color: var(--bg-color-main);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  position: relative;
+  top: 2.5rem;
+  border-radius: 100px;
+
+}
+a.navbar-brand{
+  padding: 0.5rem;
+}
+#navbarmenu{
+  font-size: 1.2rem;
+}
+.right{
+  background-color: #117E88;
+  height: 2000px;
+}
+#name{
+  position: relative;
+  top: -200px;
+  left: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+}
+#name p{
+  writing-mode: vertical-rl;
+  text-orientation:upright;
+  color: var(--bg-color-sec);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#datosPersonales{
+  position: relative;
+  top:100px;
+  left: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #117E88;
+  border-radius: 50%;
+  color: #fff;
+  width: 23rem;
+  height: 23rem;
+  padding: 2rem;
+}
+main{
+  position: relative;
+  top: 30rem;
+  left: 2vw;
+  height: 20rem;
+}
+.card-body p{
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+.myPhoto{
+  position: relative;
+  top: -10rem;
+  left: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myPhoto img{
+  width: 20rem;
+  height: 20rem;
+  filter: opacity(0.8);
+}
+/*images*/
+#ex, #prof, #acad, #idioma, #logo{
+width: 20px;
+height: 20px;
+
+}
+
+.v1, .v2, .v3, .v4{
+  display: none;
+}
+ul{
+  list-style-type: circle;
+}
+h3{
+  text-align: center;
+  padding:0;
+}
+#idiomas{
+  padding:0;
+}
+.social-media{
+  color: var(--color-main);
+}
+.social-media img{
+width: 30px;
+height: 30px;
+}
+footer .informatica p {
+  text-align: center;
+}
+@media(max-width: 768px){
+.navbar{
+  border-radius: 0px;
+}
+  #navbarmenu{
+  background-color: #000;
+  padding: 0.5rem;
+}
+.container-fluid{
+  height: 100%;
+}
+.right{
+  height: 2500px;
+}
+main{
+  left: 0;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+#datosPersonales{
+  width: 15rem;
+  height: 15rem;
+  padding: 0.5rem;
+  left: 14vw;
+  background-color: #000;
+  border-radius: none;
+  font-size: smaller;
+}
+.informatica p{
+    font-size: 0.8rem;
+  }
+  }
