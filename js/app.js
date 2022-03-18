@@ -7,7 +7,7 @@
 
 function myFunction() {
   moreText1.classList.toggle("v1");
-  div1.style.backgroundColor = "#87CCF7";
+  div1.style.backgroundColor = "#fff";
 };
  
 
@@ -19,7 +19,7 @@ function myFunction() {
 
 function second() {
   moreText2.classList.toggle("v2");
-  div2.style.backgroundColor = "#87CCF7";
+  div2.style.backgroundColor = "#fff";
 };
 
 
@@ -31,7 +31,7 @@ function second() {
 
  function third() {
   moreText3.classList.toggle("v3");
-  div3.style.backgroundColor = "#87CCF7";
+  div3.style.backgroundColor = "#fff";
  };
 
 // forth
@@ -42,5 +42,5 @@ function second() {
 
    function forth() {
     moreText4.classList.toggle("v4");
-    div4.style.backgroundColor = "#87CCF7";
+    div4.style.backgroundColor = "#fff";
  };
