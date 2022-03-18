@@ -5,9 +5,7 @@
 }
 :root{
   --bg-color-main: #F1F1F3;
-  --bg-color-head: #;
-  --bg-color-second: #000;
-  --bg-color-other: #;
+  --bg-color-second: black;
   --color-main: #F1F1F3;
 }
   /*--body--*/
