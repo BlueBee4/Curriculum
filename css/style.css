@@ -13,12 +13,22 @@ body{
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
+/*--navigation--*/
 
+
+.dropdown-menu{
+  background-color: rgba(70, 66, 66, 0.6)!important;
+  font-size: 1.1rem;
+font-weight: 600;
+letter-spacing: 0.1rem;
+}
 .navbar{
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
+  background-color: rgba(0,0,0,.6)!important;
 }
+
 a.navbar-brand{
   padding: 0.5rem;
 }
@@ -32,12 +42,14 @@ a.navbar-brand{
 color: #fff!important;
 }
 
+
+
 .datos{
   position:absolute;
   top: 54%;
   transform: translateY(-50%);
   text-transform: uppercase;
-  background-color: rgba(0,0,0, .4);
+  background-color: rgba(0,0,0, .2);
   color: var(--color-main);
   font-weight: 500;
   border-radius: 1rem;
@@ -60,18 +72,6 @@ h3{
   text-align: center;
   padding:0;
 }
-/* .sec1{ */
-  /* background-color: #9C80EA; */
-/* } */
-/* .sec2{ */
-  /* background-color: #BF8EE6; */
-/* } */
-/* .sec3{ */
-  /* background-color: #56D9F0; */
-/* } */
-/* .sec4{ */
- /* background-color: #1D83E2; */
-/* } */
 /*--footer section--*/
 
 .social-media img{
