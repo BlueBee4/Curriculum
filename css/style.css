@@ -19,8 +19,8 @@ body{
 .dropdown-menu{
   background-color: rgba(70, 66, 66, 0.6)!important;
   font-size: 1.1rem;
-font-weight: 600;
-letter-spacing: 0.1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 .navbar{
   font-size: 1.1rem;
