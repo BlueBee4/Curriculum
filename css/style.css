@@ -11,7 +11,12 @@
   /*--body--*/
 body{
   overflow-x: hidden;
+  overflow-y: scroll;
   font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 /*--navigation--*/
 
@@ -72,6 +77,27 @@ h3{
   text-align: center;
   padding:0;
 }
+
+
+
+
+.proyectos{
+
+ 
+  line-height: 1.5rem;
+}
+
+
+
+.proyectos a{
+  text-decoration: none;
+  color: #07072c;
+  
+}
+.item{
+  border: 1px solid #07072c;
+  
+}
 /*--footer section--*/
 
 .social-media img{
@@ -104,5 +130,10 @@ height: 35px;
 
 .informatica p{
     font-size: 0.8rem;
+  }
+  .proyectos{
+
+    flex-direction: column;
+    line-height: 1.5rem;
   }
   }
