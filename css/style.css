@@ -82,7 +82,7 @@ h3{
 
 
 .proyectos{
-
+  justify-content: center;
  
   line-height: 1.5rem;
 }
@@ -92,11 +92,20 @@ h3{
 .proyectos a{
   text-decoration: none;
   color: #07072c;
+  font-weight: 600;
+  margin-top: 3rem;
+  padding: 1rem;
   
 }
 .item{
   border: 1px solid #07072c;
+  margin: 0.5rem;
   
+}
+.item img{
+  height:350px;
+  padding-bottom: 2rem;
+ 
 }
 /*--footer section--*/
 
